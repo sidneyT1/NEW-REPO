@@ -180,13 +180,17 @@ body {
     padding: 0 400px;
 }
 
-.skills .left .info h3 {
+.text-group {
+    padding: 0 52px;
+}
+
+.skills .text-group .info h3 {
     color: #fff;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-.skills .left .info p {
+.skills .text-group .info p {
     color: #ccc;
     font-size: 14px;
 }
@@ -217,6 +221,10 @@ body {
     color: #fff;
 }
 
+
+.skills .item {
+    height: 500px; 
+}
 
 
 footer {
@@ -331,15 +339,15 @@ footer .cols .news-col form button i {
         gap: 20px;
     }
 
-    .skills .left {
-        width: 500px;
+    .skills .text-group {
+        width: 400px;
     }
 
-    .skills .left .info h3 {
+    .skills .text-group .info h3 {
         font-size: 22px;
     }
 
-    .skills .left .info p {
+    .skills .text-group .info p {
         font-size: 12px;
     }
 
@@ -428,7 +436,7 @@ footer .cols .news-col form button i {
         font-size: 16px;
     }
 
-    .skills .left {
+    .skills .text-group {
         width: 100%;
     }
 
