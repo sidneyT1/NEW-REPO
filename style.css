@@ -102,16 +102,17 @@ body {
 .guarantee .item {
     background: #292b2e;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align at the top */
+    height: 150px; /* Adjust as needed */
     width: 100%;
     border-radius: 10px;
-    padding: 0 30px;
+    padding: 20px; /* Adjust as needed */
     border: 1px solid transparent;
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
 
 .guarantee .item:hover {
     border-color: #b12020;

@@ -1,0 +1,45 @@
+
+.stage {
+    display:inline-block
+    
+    
+   
+    
+}
+
+.stage-title {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.stage-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px; 
+}
+
+.button-wrapper {
+    margin-top: 200px;
+}
+
+
+.stage-title.hire-btn {
+    background: #b12020;
+    padding: 6px 20px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: #000000;
+}
+
+.stage-title .hire-btn:hover {
+    background: #d33a3a;
+}
