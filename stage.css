@@ -43,3 +43,26 @@
 .stage-title .hire-btn:hover {
     background: #d33a3a;
 }
+
+.stage-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    margin-top: 20px;
+}
+
+.stage-details {
+    flex: 1;
+    font-size: 18px;
+}
+
+.stage-logo {
+    flex-shrink: 0;
+}
+
+.stage-logo img {
+    
+    height: auto;
+}
