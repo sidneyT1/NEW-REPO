@@ -20,14 +20,16 @@
     border: 2px solid #ddd;
     border-radius: 10px;
     background: #292b2e;
-    margin-bottom: 300px; 
+    margin-bottom: 100px; 
     
     
 }
 
+
+
 .presentation-titre
 {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .entreprise-presentation
@@ -37,7 +39,7 @@
     font-size: 1.25rem;
     font-weight: 300;
     gap: 20px;
-    margin-bottom: 300px; 
+    margin-bottom: 100px; 
 }
 
 .stage-details {
@@ -66,8 +68,129 @@ strong{
 
    
     align-items: center;
-    margin-bottom: 400px; 
+    margin-bottom: 100px; 
     font-size: 1.25rem;
     font-weight: 300;
 
+}
+
+hr
+{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(153, 25, 25, 0.75), rgba(0, 0, 0, 0));
+}
+
+.bxs-file, .bxs-envelope, .bxs-spreadsheet
+{
+    font-size: 80px;
+}
+
+.titre-formulaires
+{
+    color:white;
+}
+
+.sous-titre{
+    text-align: left;
+    margin-top: 100px;
+}
+
+.formulaires{
+    
+    margin-bottom: 100px; 
+    font-size: 1.25rem;
+    font-weight: 300;
+    
+}
+
+.technos
+{
+    display : flex;
+   
+}
+
+.image-technos
+{
+    
+    width: 200px;
+}
+
+.bx-plus
+{
+    font-size: 80px;
+    line-height: 2; 
+}
+
+.formsstudio{
+    line-height: 2.7; 
+    margin-right:20px;
+}
+
+.easily
+{
+    width: 300px;
+    margin-left: 20px;
+}
+
+.formulaire
+{
+    width: 1000px;
+}
+
+.modele-courrier
+{
+    margin-bottom: 100px; 
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
+
+.mhcare
+{
+    width: 300px;
+}
+
+.html, .css {
+    width: 170px;
+   
+}
+
+.technos-modeles .bx-plus
+{
+    margin-left:30px;
+    
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    
+    padding: 20px;
+    border: 1px solid #ddd;
+    
+}
+
+.points, .skillls {
+    flex: 1; 
+    padding: 20px;
+}
+
+.points {
+    border-right: 1px solid #ddd;
+}
+
+
+
+container ul {
+    list-style: disc;
+    margin: 10px 0;
+    padding-left: 20px;
 }

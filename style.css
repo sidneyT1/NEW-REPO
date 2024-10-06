@@ -7,7 +7,8 @@ body, html {
     text-align: center;
 }
 
-h2, h3, h4, nav a, .hire-btn {
+
+h2, h3, h4, nav a  {
     color: #b12020;
 }
 
@@ -17,6 +18,12 @@ h2, h3, h4, nav a, .hire-btn {
     align-items: center;
     padding: 20px 50px;
     background: #1c1c1c;
+}
+
+.logo
+{
+    width: 60px;
+    color:red;
 }
 
 nav a {
@@ -99,5 +106,5 @@ footer a:hover {
 }
 
 .hire-btn:hover {
-    background: #d33a3a;
+    background: #660e0e;
 }
